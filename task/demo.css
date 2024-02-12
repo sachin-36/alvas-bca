@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./food/bg2.jpeg);
+    background-position: 50% 78%;
+    background-size:1700px;
+    background-repeat: no-repeat;
+}
+.header{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.search{
+    margin-top: 20px;
+    width: fit-content;
+    padding: 10px;
+    background:transparent;
+    border: 1px solid rgb(255, 255, 255);
+}
+input[type="search"]{
+    background: transparent;
+    border: none;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    outline: none;
+}
+
+input[type="search"]::placeholder{
+    color: rgba(255, 255, 255, 0.491);
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+}
+
+.content h1{
+    font-size: 80px;
+}
+
+.content p{
+    padding-top: 10px;
+    font-weight: 300;
+    line-height: 28px;
+    font-size: 23px;
+    font-family: Calibri;
+    font-weight: 500;
+}
+
+.btn{
+    display: flex;
+    min-height: 100%;
+    max-width: 100%;
+    justify-content: center;
+    gap: 20px;
+}
+
+button{
+    width: 230px;
+    padding: 15px 0;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 25px;
+    font-weight: 650;
+    border: none;
+    font-size: 18px;
+    font-family:'Segoe UI';
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.b1{
+    background-color: rgb(14, 209, 14);
+    color: white;
+}
+
+.b1:hover{
+    background-color: rgb(1, 163, 1);
+    color: rgba(255, 255, 255, 0.772);
+}
+
+.b2{
+    color: rgb(0, 0, 110);
+}
+
+.b2:hover{
+    background-color: rgba(0, 136, 220, 0.874);
+    color: rgb(255, 255, 255);
+}
+
+.container{
+    display: flex;     
+    /* flex-direction: row; */
+    background-color: rgb(255, 255, 255);
+    padding: 100px;
+    margin-left: 80px;
+    gap: 100px;
+}
+.container .item1,.container .item2,.container .item3,.container .item4{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.container .item2,.container .item4{
+    margin-top: 30px;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    background-color: #f0d057;
+}
+
+.image{
+    margin-left: auto;
+    zoom: 1.1;
+}
+
+.content2{
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: auto;
+}
+
+.hl{
+    font-size: 75px;
+    margin-bottom: 30px;
+}
+
+.pl{
+    font-size: 18px;
+}
+
+.rd {
+    background-color: rgb(14, 209, 14);
+    color: white;
+}
+
+.rd:hover {
+    background-color: rgb(1, 163, 1);
+    color: rgba(255, 255, 255, 0.772);
+    cursor: pointer;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+    padding: 60px;
+    flex-direction: column;
+}
+.redrap{
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+.card{
+      height: 500px;
+      width:312px; 
+}
+.card img{
+    height: 80%; 
+    border-radius: 100px;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+.slider-image{
+    display: flex;
+    max-width: 1120px;
+    width: 100%;
+    background-color: gray;
+    height: 500px;
+    
+}
+.sachin{
+    background-color: #000;
+}
